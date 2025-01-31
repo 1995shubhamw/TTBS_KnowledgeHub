@@ -6,7 +6,6 @@
       <class name="migration_All.Migration_CaseStudies">
         <methods>
           <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="testLoadCaseStudies"/>
         </methods>
       </class> <!-- migration_All.Migration_CaseStudies -->

@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-23T11:41:27 IST" name="Default suite" finished-at="2025-01-23T11:43:24 IST" duration-ms="116929">
+  <suite started-at="2025-01-31T10:25:32 IST" name="Default suite" finished-at="2025-01-31T10:27:12 IST" duration-ms="100268">
     <groups>
     </groups>
-    <test started-at="2025-01-23T11:41:27 IST" name="Default test" finished-at="2025-01-23T11:43:24 IST" duration-ms="116929">
-      <class name="migration_All.Migration_CaseStudies">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:migration_All.Migration_CaseStudies@5aebe890]" started-at="2025-01-23T11:41:27 IST" name="setUp" finished-at="2025-01-23T11:41:31 IST" duration-ms="4216" status="PASS">
+    <test started-at="2025-01-31T10:25:32 IST" name="Default test" finished-at="2025-01-31T10:27:12 IST" duration-ms="100268">
+      <class name="migration_All.Migration_Articles">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:migration_All.Migration_Articles@33c911a1]" started-at="2025-01-31T10:25:32 IST" name="setUp" finished-at="2025-01-31T10:25:37 IST" duration-ms="5213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLoadCaseStudies()[pri:0, instance:migration_All.Migration_CaseStudies@5aebe890]" started-at="2025-01-23T11:41:31 IST" name="testLoadCaseStudies" finished-at="2025-01-23T11:43:24 IST" duration-ms="112679" status="PASS">
+        <test-method signature="testLoadArticles()[pri:0, instance:migration_All.Migration_Articles@33c911a1]" started-at="2025-01-31T10:25:37 IST" name="testLoadArticles" finished-at="2025-01-31T10:27:12 IST" duration-ms="94481" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLoadCaseStudies -->
-      </class> <!-- migration_All.Migration_CaseStudies -->
+        </test-method> <!-- testLoadArticles -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:migration_All.Migration_Articles@33c911a1]" started-at="2025-01-31T10:27:12 IST" name="tearDown" finished-at="2025-01-31T10:27:12 IST" duration-ms="520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- migration_All.Migration_Articles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
